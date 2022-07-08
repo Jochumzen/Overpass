@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "Overpass"
 include ':app'
 include ':overpass_datasource'
+include ':domain'
+project(':domain').projectDir = new File('/../MapiDomain/domain')

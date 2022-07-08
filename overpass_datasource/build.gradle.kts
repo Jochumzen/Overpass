@@ -14,4 +14,5 @@ dependencies {
     implementation(Ktor.clientSerialization)
     implementation(Ktor.android)
 
+    implementation(project(":domain"))
 }
