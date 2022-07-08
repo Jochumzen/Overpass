@@ -6,13 +6,11 @@ buildscript{
     }
 
     dependencies {
-        classpath(Build.androidBuildTools)
-        classpath(Build.kotlinGradlePlugin)
         classpath(Build.hiltAndroid)
         classpath(Build.sqlDelightGradlePlugin)
         classpath("com.android.tools.build:gradle:7.2.1")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.0")
     }
-
 
 }
 
